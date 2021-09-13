@@ -1,0 +1,30 @@
+{
+  "name": "dailyjournal",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.44",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advayaggarwal/Daily-Journal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/advayaggarwal/Daily-Journal/issues"
+  },
+  "homepage": "https://github.com/advayaggarwal/Daily-Journal#readme",
+  "description": ""
+}
