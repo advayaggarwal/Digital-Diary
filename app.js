@@ -8,9 +8,9 @@ const client = require("@mailchimp/mailchimp_marketing");
 const https = require("https");
 const dotenv = require("dotenv").config();
 
-const homeStartingContent = "Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac habitasse. Imperdiet proin fermentum leo vel orci porta. Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis molestie a iaculis at erat pellentesque adipiscing. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies.";
-const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non diam phasellus vestibulum lorem sed. Platea dictumst quisque sagittis purus sit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Mauris in aliquam sem fringilla.";
-const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae.";
+const homeStartingContent = "Welcome to my Blog. Here I post interesting blogs related to Data Structers & Algorithms and Web Development.";
+const aboutContent = "A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth - oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills. I love problem solving.";
+const contactContent = "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development and Data Structers & Algorithms.";
 
 const app = express();
 

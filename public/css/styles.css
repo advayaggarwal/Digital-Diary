@@ -44,3 +44,45 @@
     color: #fff;
     letter-spacing: 2px;
 }
+
+.bottom-container {
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    margin-right: 18px;
+}
+
+.greeting-main {
+    display: flex;
+}
+
+.greeting-main>* {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.greeting-text {
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+}
+
+.greeting-text-p {
+    font-size: 70px;
+    line-height: 40px;
+    margin-right: 40px;
+}
+
+.greeting-text-div {
+    padding-top: 5%;
+}
+
+.greeting-text-div p {
+    font-size: 30px;
+}
+
+.greeting-image-div>* {
+    max-width: 100%;
+    height: auto;
+}
