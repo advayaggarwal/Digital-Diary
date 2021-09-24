@@ -8,9 +8,9 @@ const client = require("@mailchimp/mailchimp_marketing");
 const https = require("https");
 const dotenv = require("dotenv").config();
 
-const homeStartingContent = "Welcome to my Blog. Here I post interesting blogs related to Data Structers & Algorithms and Web Development.";
+const homeStartingContent = "Welcome to my Blog. Here I post interesting blogs related to Data Structures & Algorithms and Web Development.";
 const aboutContent = "A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth - oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills. I love problem solving.";
-const contactContent = "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development and Data Structers & Algorithms.";
+const contactContent = "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Full Stack Development and Data Structures & Algorithms.";
 
 const app = express();
 
@@ -118,15 +118,12 @@ app.post("/failure", function (req, res) {
   res.redirect("/signup");
 });
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log("Server started on port 3000");
-});
-
 
 app.post("/signup", function (req, res) {
   const firstName = req.body.fName;
   const lastName = req.body.lName;
   const email = req.body.email;
+
 
   const subscribingUser = {
     firstName: firstName,
@@ -153,4 +150,8 @@ app.post("/signup", function (req, res) {
   };
 
   run();
+});
+
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Server started on port 3000");
 });
